@@ -1,0 +1,215 @@
+@media (max-width: 1300px) {
+  .container {
+    .main {
+      .content {
+        .popular {
+          .cards {
+            .card {
+              .price-product {
+                .price {
+                  font-size: 1rem;
+                  line-height: 1.3rem;
+                }
+                .credit {
+                  padding: 6px 8px;
+                  .percent {
+                    font-size: 0.6rem;
+                    line-height: 1rem;
+                  }
+                  .money-of-month {
+                    font-size: 0.6rem;
+                    line-height: 1rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 870px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    #nav {
+      display: none;
+    }
+    #nav2 {
+      display: flex;
+    }
+    .main {
+      .content {
+        width: 93%;
+        margin: auto;
+        .top-content{
+          .left {
+            width: 100%;
+            .responsive-layout{
+              display: block;
+            }
+            .products {
+              display: none;
+            }
+            .other-products {
+              .left {
+                width: 100%;
+                .left-text {
+                  font-size: 1.4rem;
+                }
+                .right-icon {
+                  font-size: 1.4rem;
+                }
+              }
+              .right {
+                display: none;
+              }
+            }
+            .comments {
+              .top {
+                .left-top {
+                  display: none;
+                }
+                .responsive-top {
+                  display: block;
+                }
+                p {
+                  i {
+                    font-size: 1.6rem;
+                  }
+                }
+              }
+              .user-comments {
+                .user-comment {
+                  .comment-info {
+                    .info-user {
+                      .name-sur {
+                        font-size: 1.6rem;
+                      }
+                      span {
+                        display: none;
+                      }
+                      .date-commnet {
+                        display: none;
+                      }
+                    }
+                    .rating-comment {
+                      font-size: 1.6rem;
+                    }
+                  }
+                  .comment-content {
+                    font-size: 1.6rem;
+                  }
+                }
+              }
+              .more {
+                justify-content: flex-start;
+              }
+              .nonMore {
+                justify-content: flex-start;
+              }
+              .create-commet {
+                .title {
+                  display: none;
+                }
+                .comment-form {
+                  .form-div {
+                    display: flex;
+                    flex-direction: column;
+                    .left {
+                      width: 100%;
+                      .nameInput {
+                        margin-bottom: 15px;
+                        input {
+                          padding: 15px;
+                          &::placeholder {
+                            font-size: 1.6rem;
+                            line-height: 1.9rem;
+                          }
+                        }
+                      }
+                      .surnameInput {
+                        margin-bottom: 15px;
+                        input {
+                          padding: 15px;
+                          &::placeholder {
+                            font-size: 1.6rem;
+                            line-height: 1.9rem;
+                          }
+                        }
+                      }
+                    }
+                    .right {
+                      width: 100%;
+                      textarea {
+                        min-height: 10rem;
+                        padding: 15px;
+                        &::placeholder {
+                          font-size: 1.6rem;
+                          line-height: 1.9rem;
+                        }
+                      }
+                    }
+                  }
+                  .form-footer {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                    p {
+                      color: #fdd835;
+                      font-size: 1.8rem;
+                      i {
+                        cursor: pointer;
+                      }
+                    }
+                    button {
+                      font-size: 1.6rem;
+                      line-height: 1.9rem;
+                      padding: 15px;
+                      border: none;
+                      margin-left: 20px;
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .right-content {
+            display: none;
+          }
+        }
+        .popular {
+          display: none;
+        }
+      }
+    }
+    .footer {
+      display: none;
+    }
+    .footer2 {
+      display: block;
+    }
+  }
+  //   .container {
+  //     #nav {
+  //       .search {
+  //         .input {
+  //           input {
+  //             &::placeholder {
+  //               font-size: 12px;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+}
